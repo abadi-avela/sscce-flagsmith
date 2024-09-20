@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { createFlagsmithInstance } from "flagsmith";
 
 function App() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const flagsmith = createFlagsmithInstance();
   return (
     <div className="App">
       <header className="App-header">
